@@ -27,3 +27,5 @@ python -m streamlit run app.py
 /Deploy/app.py: Código da interface e modelo.
 
 /Deploy/model: Pasta contendo o arquivo data.csv.
+
+https://github.com/LucianaGaldino/PrevisaoValoresSousa/issues/1#issue-3880245890

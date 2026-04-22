@@ -1,10 +1,10 @@
-# 🏠 Previsão de Valores de Imóveis — Boston Housing
+#  Previsão de Valores de Imóveis — Boston Housing
 
 > Solução completa de Machine Learning para predição de preços de imóveis, com análise exploratória, modelagem por Random Forest e deploy de aplicação interativa via Streamlit.
 
 ---
 
-## 📋 Sobre o Projeto
+##  Sobre o Projeto
 
 Um executivo do ramo imobiliário em Boston (EUA) solicitou à sua equipe de Ciência de Dados um modelo capaz de prever o valor mediano de imóveis com base em características como localização, infraestrutura e perfil socioeconômico do entorno.
 
@@ -12,7 +12,7 @@ Este repositório contém o pipeline completo: da análise exploratória dos dad
 
 ---
 
-## 🗂️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 previsao-imoveis/
@@ -26,7 +26,7 @@ previsao-imoveis/
 
 ---
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - **Análise Exploratória (EDA)** — estatísticas descritivas, correlações e visualizações
 - **Baseline por categoria** — modelo simples de referência por porte do imóvel (Pequeno/Médio/Grande)
@@ -36,7 +36,7 @@ previsao-imoveis/
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 O projeto utiliza o **Boston Housing Dataset** (Harrison & Rubinfeld, 1978), um clássico de ML com 506 amostras e 13 variáveis preditoras.
 
@@ -54,7 +54,7 @@ O projeto utiliza o **Boston Housing Dataset** (Harrison & Rubinfeld, 1978), um 
 
 ---
 
-## 🤖 Modelo
+##  Modelo
 
 **Algoritmo:** `RandomForestRegressor` (scikit-learn)
 
@@ -70,7 +70,7 @@ RandomForestRegressor(n_estimators=200, max_depth=7, max_features=3)
 
 ---
 
-## 🚀 Como Executar
+##  Como Executar
 
 ### Pré-requisitos
 
@@ -107,7 +107,7 @@ Acesse em: **http://localhost:8501**
 
 ---
 
-## 🖥️ Usando a Aplicação
+##  Usando a Aplicação
 
 1. **Histograma** — ajuste o slider para filtrar imóveis por faixa de preço e visualizar a distribuição
 2. **Painel lateral** — preencha os atributos do imóvel (criminalidade, quartos, poluição etc.)
